@@ -1,0 +1,37 @@
+---
+tests:
+  - case: 验证响应结果是否与断言一致
+    http:
+      method: GET
+      path: /user/api/v2/company/warn/government/warnCount
+      headers:
+        User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko)Chrome/80.0.3987.149 Safari/537.36"
+        token: c3743ca463a9dd6d4fc34d5ace471f471cd92bd1e48d2584c892263ac2a21f13
+      params:
+        userId: 324699434648735745
+        startDate": 2020-11-02
+        endDate": 2020-11-03
+        pageNum: 1
+        pageSize: 10
+        rankWay: 2
+      expected:
+        response:
+          totalNum: 3
+
+  - case: 验证响应结果中的totalNum是4
+    http:
+      method: GET
+      path: /user/api/v2/company/warn/government/warnCount
+      headers:
+        User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko)Chrome/80.0.3987.149 Safari/537.36"
+        token: c3743ca463a9dd6d4fc34d5ace471f471cd92bd1e48d2584c892263ac2a21f13
+      params:
+        userId: 324699434648735745
+        startDate": 2020-11-02
+        endDate": 2020-11-03
+        pageNum: 1
+        pageSize: 10
+        rankWay: 2
+      expected:
+        response:
+          totalNum: 4
