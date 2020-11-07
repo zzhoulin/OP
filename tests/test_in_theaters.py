@@ -8,11 +8,17 @@ cases, list_params = get_test_data("/TestProject/OP/data/test_in_theaters")
 
 class TestInTheaters(object):
     @pytest.mark.parametrize("case,http,expected", list(list_params), ids=cases)
-    def test_in_theaters(self, case, http, expected):
-        host = "http://pre.feiyuanenv.com:8830"
+    def test_in_theaters(self, env, case, http, expected):
         r = requests.request(http["method"],
-                             url=host + http["path"],
+                             url=env["host"]["pre"] + http["path"],
                              headers=http["headers"],
                              params=http["params"])
         response = r.json()
-        assert response["body"]["totalNum"] == expected['response']["totalNum"], "实际总数是: {}".format(response["body"]["totalNum"])
+        assert response["body"]["totalNum"] == expected['response']["body"]["totalNum"]
+
+    @pytest.fixture(scope="function")
+    def preparation(self):
+        print("在数据库中准备测试数据")
+        test_data = "在数据库中准备测试数据"
+        yield test_data
+        print("清理测试数据")
