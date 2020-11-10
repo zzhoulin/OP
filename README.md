@@ -8,3 +8,4 @@
 重点记录：
          参数化装饰器：@pytest.mark.parametrize，自动对list解包并赋值给装饰器的第一参数
          fixture机制：@pytest.fixture，利用它提前读取配置信息
+!image[https://github.com/zzhoulin/OP/blob/main/B3495A8F-7810-40c4-868D-76C7D5474829.png]
