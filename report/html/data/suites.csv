@@ -1,0 +1,3 @@
+"Status","Name","Duration in ms","Description"
+"failed","tests.test_in_theaters.TestInTheaters#test_in_theaters","257",""
+"passed","tests.test_in_theaters.TestInTheaters#test_in_theaters","281",""

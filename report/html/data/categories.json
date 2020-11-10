@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 3 == 4\n  -3\n  +4",
+      "children" : [ {
+        "name" : "test_in_theaters[验证响应结果中的totalNum是4]",
+        "uid" : "d64c9a010d0ae267",
+        "parentUid" : "06731ba166bd872f066de885d86253ee",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604742522138,
+          "stop" : 1604742522395,
+          "duration" : 257
+        },
+        "flaky" : false,
+        "parameters" : [ "'验证响应结果中的totalNum是4'", "{'response': {'body': {'totalNum': 4}}}", "{'method': 'GET', 'path': '/user/api/v2/company/warn/government/warnCount', 'headers': {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko)Chrome/80.0.3987.149 Safari/537.36\"', 'token': 'fd48d11369f9ef844779b15eb380f37b66d6e4aa3fe55657c7bef3643cc9f4e9'}, 'params': {'userId': 324699434648735745, 'startDate\"': datetime.date(2020, 11, 2), 'endDate\"': datetime.date(2020, 11, 3), 'pageNum': 1, 'pageSize': 10, 'rankWay': 2}}" ]
+      } ],
+      "uid" : "06731ba166bd872f066de885d86253ee"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
