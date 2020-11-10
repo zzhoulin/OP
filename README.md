@@ -5,10 +5,10 @@
 * 安装pycharm  
 * 安装pytest库   
 * 安装依赖包：requests allure yaml  
-安装步骤  
+###### 安装步骤  
 * pip安装：pip install -U pytest
-* setting直接安装或者pip install requests、yaml等
-
+* setting直接安装或者pip install requests、yaml等  
+  
 ##### 目录结构：   
                  config：配置管理，存放环境、数据库连接等配置信息  
                  data：yaml格式的接口参数  
