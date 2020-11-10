@@ -2,21 +2,14 @@
              operation2.0版本的接口自动化测试脚本，分离测试数据和脚本，生成allure报告  
   
 ###### 安装要求
-* 1.安装pychram
-必须安装我
-我也必须安装
-安装我也是必须的
-安装步骤
-一步一步地说明怎么去搭建环境，怎么让项目跑起来。
+* 安装pycharm  
+* 安装pytest库   
+* 安装依赖包：requests allure yaml  
+安装步骤  
+* pip安装：pip install -U pytest
+* setting直接安装或者pip install requests、yaml等
 
-首先你需要
-
-干这件事
-干那件事
-继续干这件事
-......一直到完成。
-最后阐述安装完成后的情况，展示下Demo
-###### 目录结构：   
+##### 目录结构：   
                  config：配置管理，存放环境、数据库连接等配置信息  
                  data：yaml格式的接口参数  
                  tests：存放case  
