@@ -19,5 +19,14 @@
 ###### 重点记录：  
          参数化装饰器：@pytest.mark.parametrize，自动对list解包并赋值给装饰器的第一参数  
          fixture机制：@pytest.fixture，利用它提前读取配置信息  
+           
+         allure几个特性  
+         @allure.feature # 用于描述被测试产品需求  
+         @allure.story # 用于描述feature的用户场景，即测试需求  
+         with allure.step # 用于描述测试步骤，将会输出到报告中  
+         allure.attach # 用于向测试报告中输入一些附加的信息，通常是一些测试数据，截图等  
+         @pytest.allure.step # 用于将一些通用的函数作为测试步骤输出到报告，调用此函数的地方会向报告中输出步骤   
+         生成报告命令：py.test test/ --alluredir ./result/                      ./result/中保存了本次测试的结果数据  
+                      allure generate ./result/ -o ./report/ --clean          –clean选项目的是先清空测试报告目录，再生成新的测试报告  
          
 ![allure报告](https://github.com/zzhoulin/OP/blob/main/B3495A8F-7810-40c4-868D-76C7D5474829.png)
