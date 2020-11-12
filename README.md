@@ -28,5 +28,5 @@
          @pytest.allure.step # 用于将一些通用的函数作为测试步骤输出到报告，调用此函数的地方会向报告中输出步骤   
          生成报告命令：py.test test/ --alluredir ./result/                      ./result/中保存了本次测试的结果数据  
                       allure generate ./result/ -o ./report/ --clean          –clean选项目的是先清空测试报告目录，再生成新的测试报告  
-         
-![allure报告](https://github.com/zzhoulin/OP/blob/main/B3495A8F-7810-40c4-868D-76C7D5474829.png)
+                        
+![allure报告](https://github.com/zzhoulin/OP/blob/main/report.png)
