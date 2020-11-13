@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef67a20d-5fc0-4671-a72f-b4de939a48a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/Pre/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/Pro/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/test_in_theaters" beforeDir="false" afterPath="$PROJECT_DIR$/data/test_in_theaters" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_in_theaters.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_in_theaters.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -149,6 +143,7 @@
       <updated>1604373358530</updated>
       <workItem from="1604373373106" duration="13799000" />
       <workItem from="1604468490914" duration="21830000" />
+      <workItem from="1605171958546" duration="2137000" />
     </task>
     <task id="LOCAL-00001" summary="完善commlib">
       <created>1604540795012</created>
@@ -168,7 +163,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

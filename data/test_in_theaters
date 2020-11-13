@@ -6,7 +6,7 @@ tests:
       path: /user/api/v2/company/warn/government/warnCount
       headers:
         User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko)Chrome/80.0.3987.149 Safari/537.36"
-        token: fd48d11369f9ef844779b15eb380f37b66d6e4aa3fe55657c7bef3643cc9f4e9
+        token: fd48d11369f9ef844779b15eb380f37beb128151b94aa89d5c052148193f9343
       params:
         userId: 324699434648735745
         startDate": 2020-11-02
@@ -25,7 +25,7 @@ tests:
       path: /user/api/v2/company/warn/government/warnCount
       headers:
         User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko)Chrome/80.0.3987.149 Safari/537.36"
-        token: fd48d11369f9ef844779b15eb380f37b66d6e4aa3fe55657c7bef3643cc9f4e9
+        token: fd48d11369f9ef844779b15eb380f37beb128151b94aa89d5c052148193f9343
       params:
         userId: 324699434648735745
         startDate": 2020-11-02
